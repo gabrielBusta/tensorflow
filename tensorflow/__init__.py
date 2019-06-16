@@ -24,6 +24,7 @@ from __future__ import print_function
 from tensorflow.python import pywrap_tensorflow  # pylint: disable=unused-import
 
 from tensorflow.python.util.lazy_loader import LazyLoader
+# we use lazy loader here
 contrib = LazyLoader('contrib', globals(), 'tensorflow.contrib')
 del LazyLoader
 
